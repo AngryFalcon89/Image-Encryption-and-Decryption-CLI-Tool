@@ -1,5 +1,7 @@
 # Image Encryption and Decryption CLI Tool
-![Project Image](project.png)
+<p align="center">
+  <img src="project.png" />
+</p>
 ## Overview
 
 This command-line tool allows you to encrypt and decrypt images using a simple and intuitive interface. It provides functionalities to encrypt an image with a randomly generated key and decrypt it back to its original state using the same key.
@@ -17,26 +19,26 @@ This command-line tool allows you to encrypt and decrypt images using a simple a
 To use the tool, follow these steps:
 
 1. **Encryption**:
-node index.js --encrypt <image_file_path> [--outputImageFileName <output_image_file_name>] [--outputKeyFileName <output_key_file_name>] [--clear]
+```node index.js --encrypt <image_file_path> [--outputImageFileName <output_image_file_name>] [--outputKeyFileName <output_key_file_name>] [--clear]```
 
 Example:
-node index.js --encrypt image.jpg --outputImageFileName encrypted_image.jpg
+```node index.js --encrypt image.jpg --outputImageFileName encrypted_image.jpg```
 
 2. **Decryption**:
-node index.js --decrypt <encrypted_image_file_path> --key <key_file_path> [--outputImageFileName <output_image_file_name>] [--clear]
+```node index.js --decrypt <encrypted_image_file_path> --key <key_file_path> [--outputImageFileName <output_image_file_name>] [--clear]```
 
 Example:
-node index.js --decrypt encrypted_image.jpg --key encryption_key.txt
+```node index.js --decrypt encrypted_image.jpg --key encryption_key.txt```
 
 Note: Replace `<image_file_path>`, `<encrypted_image_file_path>`, `<key_file_path>`, `<output_image_file_name>`, and `<output_key_file_name>` with the appropriate file paths and filenames.
 
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/AngryFalcon89/Image-Encryption-and-Decryption-CLI-Tool.git
+```git clone https://github.com/AngryFalcon89/Image-Encryption-and-Decryption-CLI-Tool.git```
 
 2. Install dependencies:
-npm install
+```npm i```
 
 ## Dependencies
 
