@@ -1,5 +1,5 @@
 # Image Encryption and Decryption CLI Tool
-![Project Image](/Users/ahmadbilalzaidi/Desktop/imcrypt-main/project.png)
+![Project Image](project.png)
 ## Overview
 
 This command-line tool allows you to encrypt and decrypt images using a simple and intuitive interface. It provides functionalities to encrypt an image with a randomly generated key and decrypt it back to its original state using the same key.
