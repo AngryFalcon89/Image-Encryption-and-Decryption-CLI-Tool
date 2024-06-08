@@ -2,6 +2,7 @@
 <p align="center">
   <img src="project.png" />
 </p>
+
 ## Overview
 
 This command-line tool allows you to encrypt and decrypt images using a simple and intuitive interface. It provides functionalities to encrypt an image with a randomly generated key and decrypt it back to its original state using the same key.
